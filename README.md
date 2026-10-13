@@ -44,21 +44,8 @@ Common use cases: event-driven microservices, log aggregation, real-time analyti
 
 🔗 [Explore Kafka's architecture interactively](https://softwaremill.com/kafka-visualisation/)
 
-```
-                     ┌─────────────────────────────┐
-                     │         Kafka Cluster        │
-                     │                              │
- Producer ──────────▶│   Broker 1   Broker 2  ...   │──────────▶ Consumer
-(user-service)       │                              │        (notification-service)
-                     │   Topic: user-events          │
-                     │   ┌───────┬───────┬───────┐  │
-                     │   │ P0    │ P1    │ P2    │  │
-                     │   └───────┴───────┴───────┘  │
-                     └─────────────────────────────┘
-                                  │
-                          Coordinated via
-                       Zookeeper / KRaft
-```
+<img width="1408" height="768" alt="Kafka-Architecture" src="https://github.com/user-attachments/assets/4640858d-7adf-4761-8e3b-dae8872a33be" />
+
 
 Core components:
 
