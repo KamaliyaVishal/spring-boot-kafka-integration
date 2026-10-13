@@ -44,7 +44,7 @@ Common use cases: event-driven microservices, log aggregation, real-time analyti
 
 🔗 [Explore Kafka's architecture interactively](https://softwaremill.com/kafka-visualisation/)
 
-<img width="1408" height="768" alt="Kafka-Architecture" src="https://github.com/user-attachments/assets/4640858d-7adf-4761-8e3b-dae8872a33be" />
+<img width="1408" height="768" alt="Kafka-Architecture" src="https://github.com/user-attachments/assets/ba7ba3a8-ad28-435a-93b1-7ecfaa9b5183" />
 
 
 Core components:
